@@ -44,7 +44,7 @@ buttonEl.addEventListener("click", () => {
             }).then((res) => {
               console.log(res)
               res = 10 + parseFloat(res) ;
-              divEl.textContent = `Result: ${res}`;
+              divEl.textContent = `Final Result: ${res}`;
             });
           });
         });
